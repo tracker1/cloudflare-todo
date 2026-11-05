@@ -1,3 +1,18 @@
+# !!!CLOUDFLARE REVIEWER!!!
+
+Please note that this project isn't complete yet, I meant to note in an updated
+cover letter before submitting, but accidentally hit enter which submitted the
+application before I could update.
+
+I plan to complete this project over the next few days if you can defer any
+review. So far, I've only layed out the basic details for the project dev
+process, mostly to initialize and set baseline for agent work to move forward
+with.
+
+---
+
+---
+
 # cloudflare-todo
 
 This is a simple demonstration application using Cloudflare services, in
