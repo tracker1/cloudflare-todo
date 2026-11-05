@@ -8,6 +8,24 @@ as a core reference for the project details.
 Please use [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
 for all commit messages.
 
+## Development logs
+
+You should track progress under `dev-logs/` in the project root when working
+through issues/changes and construction. This goes beyond the git logs, and
+all agent prompts and interactions should be tracked in these logs as well.
+
+Under the `dev-logs/` each date whould have a `YYYYMMDD.md` corresponding
+file, create if it doesn't exist. Each general interaction should be tracked
+as an H2 heading (`##`), where agents should capture the literal prompt as well
+as a very terse sumary of the logic/thinking/result made.
+
+Tip: You can run the following command on the CLI in order to get the
+timestamp to use or the H2 heading.
+
+```
+ deno eval "console.log(new Date().toJSON())"
+```
+
 ## run/ scripts
 
 [run](run/index.md) scripts will be used in order to exercise and orchestrate

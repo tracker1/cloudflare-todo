@@ -12,7 +12,7 @@ agent for the purpose of managing a simple TODO list.
 
 A portions of this project will be developed with the use of an AI agent,
 in particular Claude Code (Opus 5.5). Prompt history should be captured
-through log files under `agents/`.
+through log files under `dev-logs/`.
 
 # Documentation
 

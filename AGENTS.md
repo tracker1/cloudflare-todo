@@ -22,13 +22,13 @@ project currently.
 ### Rollback
 
 While interacting with the project and capturing work. It will sometimes be
-necessary to rollback the work to the last commit. The `agents/` directory
+necessary to rollback the work to the last commit. The `dev-logs/` directory
 should not be rolled back... what should happen is a log entry is added as an
 H2 with the timestamp, and noting the rollback.
 
 ### Working
 
-Use `agents/` in order to capture the history of events that are using AI to
+Use `dev-logs/` in order to capture the history of events that are using AI to
 interact with this project. For each interaction with AI, I would like to add
 a `log-YYYYMMDD.md` for every calendar date, if a file for the given date is
 not yet created, you should create one.
